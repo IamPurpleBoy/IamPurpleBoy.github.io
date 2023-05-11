@@ -20,11 +20,48 @@
 
   </head>
   <body>
-    <h1>Bienvenidos!</h1>
-    <h2>Nicolas Emanuel Martin</h2>
-    <h3>Desarrollador Web Fullstack Jr.</h3>
-    <p>Hola, mi nombre es Nicolás, te doy la bienvenida a mi GitHub y espero que te agrade mi trabajo. Por el momento y por cuestiones de agenda este sitio esta EN CONSTRUCCION por lo que te invito a que veas mis repositorios para evaluar lo que sea que estés buscando en ellos. Por cualquier contacto te dejo este formulario de contacto aquí debajo.</p>
+  <div class="container text-center">
+  <h1>Bienvenidos!</h1>
+  <h2>Nicolas Emanuel Martin</h2>
+  <h3>Desarrollador Web Fullstack Jr.</h3>
+  <p>Hola, mi nombre es Nicolás, te doy la bienvenida a mi GitHub y espero que te agrade mi trabajo. Por el momento y por cuestiones de agenda este sitio esta EN CONSTRUCCION por lo que te invito a que veas mis repositorios para evaluar lo que sea que estés buscando en ellos. Por cualquier contacto te dejo mi correo electrónico <a href="#contacto" data-bs-toggle="modal" data-bs-target="#contactoModal">aquí</a>.</p>
+</div>
     
+    <!-- Modal -->
+<div class="modal fade" id="contactoModal" tabindex="-1" aria-labelledby="contactoModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactoModalLabel">Formulario de contacto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="text" class="form-control" id="telefono" placeholder="Ingrese su teléfono">
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="3" placeholder="Ingrese su mensaje"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <p>Email: nicolas.emanuel.martin@gmail.com</p>
+        <p>Teléfono: +5493515942504</p>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
