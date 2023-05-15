@@ -2,7 +2,7 @@ body {
       background-image: url("imagenes/colors-bg.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      color: white;
+      transform: scaleY(-1);
     }
 p {
       color: white;
