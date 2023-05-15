@@ -10,10 +10,12 @@ body {
     }
 p {
       color: white;
+      font-family: 'EB Garamond', serif;
     }
 
-h1 {
+h1 h2 h3 {
       color: white;
+      font-family: 'Roboto', serif;
     }
 
 
