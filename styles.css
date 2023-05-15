@@ -2,5 +2,6 @@ body {
       background-image: url("imagenes/colors-bg.jpg");
       background-size: cover;
       background-repeat: no-repeat;
+      text-color: white;
     }
 
