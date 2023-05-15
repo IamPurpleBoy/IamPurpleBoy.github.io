@@ -2,9 +2,9 @@ body {
       background-image: url("imagenes/colors-bg.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      /*transform: scaleY(-1);*/
+      transform: scale(1.2) rotate(10deg);
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
     }
@@ -13,7 +13,7 @@ p {
       font-family: 'Special Elite', cursive;
     }
 
-h1 h2 h3 {
+h1, h2, h3 {
       color: white;
       font-family: 'Roboto', serif;
     }
