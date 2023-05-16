@@ -1,13 +1,20 @@
 body {
       background-image: url("imagenes/colors-bg.jpg");
-      background-size: cover;
+      height: 100vh; /* ajustar la altura al 100% de la pantalla */
       background-repeat: no-repeat;
-      transform: scale(1.2) rotate(10deg);
+      background-size: 300vw 600vh;
+      background-position:center;
+      transition: background-size 40s ease-in-out;
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
     }
+
+   
+    
+    
+
 p {
       color: white;
       font-family: 'Special Elite', cursive;
@@ -16,6 +23,7 @@ p {
 h1, h2, h3 {
       color: white;
       font-family: 'Special Elite', cursive;
+      transform: scale(1.2) rotate(10deg);
     }
 
 
