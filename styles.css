@@ -11,7 +11,14 @@ body {
       align-items: center;
     }
 
-   
+   .modal-content {
+      background: transparent;
+      border: none;
+    }
+
+    .modal-dialog {
+      margin-top: 10%;
+    }
     
     
 
