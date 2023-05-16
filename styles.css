@@ -2,7 +2,7 @@ body {
       background-image: url("imagenes/colors-bg.jpg");
       height: 100vh; /* ajustar la altura al 100% de la pantalla */
       background-repeat: no-repeat;
-      background-size: 300vw 600vh;
+      background-size: 150vw 300vh;
       background-position:center;
       transition: background-size 40s ease-in-out;
       display: flex;
