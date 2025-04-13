@@ -1,40 +1,42 @@
 body {
-      background-image: url("imagenes/colors-bg.jpg");
-      height: 100vh; /* ajustar la altura al 100% de la pantalla */
-      background-repeat: no-repeat;
-      background-size: 150vw 300vh;
-      background-position:center;
-      transition: background-size 40s ease-in-out;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-    }
+  background-image: url("imagenes/colors-bg.jpg");
+  height: 100vh; /* ajustar la altura al 100% de la pantalla */
+  background-repeat: no-repeat;
+  background-size: 150vw 300vh;
+  background-position: center;
+  transition: background-size 40s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-   .modal-content {
-      background: linear-gradient(to bottom, #ccc, #000);
-      border: none;
-    }
+.modal-content {
+  background: linear-gradient(to bottom, #ccc, #000);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
 
-    .modal-dialog {
-      margin-top: 10%;
-    }
-    
-    
+
+.modal-dialog {
+  margin-top: 10%;
+}
+
+.btn {
+  margin-top:20px;
+}
 
 p {
-      color: white;
-      font-family: 'Special Elite', cursive;
-    }
+  color: white;
+  font-family: "Special Elite", cursive;
+}
 
-h1, h2, h3 {
-      color: white;
-      font-family: 'Special Elite', cursive;
-      transform: scale(1.2) rotate(10deg);
-    }
-
-
-
-
-
+h1,
+h2,
+h3 {
+  color: white;
+  font-family: "Special Elite", cursive;
+  transform: scale(1.2) rotate(10deg);
+}
 
