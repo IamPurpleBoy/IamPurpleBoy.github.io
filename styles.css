@@ -12,12 +12,11 @@ body {
 }
 
 .modal-content {
-  background: linear-gradient(to bottom, #ccc, #000);
+  background: linear-gradient(to bottom, #7030FF, #42F7FF);
   border: none;
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.9);
 }
-
 
 .modal-dialog {
   margin-top: 10%;
@@ -30,6 +29,10 @@ body {
 p {
   color: white;
   font-family: "Special Elite", cursive;
+}
+
+a{
+  color:red;
 }
 
 h1,
