@@ -12,7 +12,7 @@ body {
     }
 
    .modal-content {
-      background: transparent;
+      background: linear-gradient(to bottom, #ccc, #000);
       border: none;
     }
 
